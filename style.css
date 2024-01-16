@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Open+Sans&family=Playfair+Display:ital,wght@1,500&family=Raleway:wght@300;400;500;600&family=Salsa&display=swap');
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Navbar Styles */
+.nav-container{
+        display: flex;
+        min-height: 20px;
+        align-items: center;
+        width: 50%;
+}
+.nav-section{
+    max-width: 1140px;
+    margin:  0 auto;
+    display: flex;
+    
+}
+
+nav h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+.special{
+    color: #ff5400;
+}
+/* .item-container{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+#hme{
+    color: #ff5400;
+}
+
+a{
+    text-decoration: none;
+}
+/* Main Section */
+
+.road{
+    background-image: url("./Images/group-13.png");
+    height: 500px;
+    width: 1140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.road-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+.travel-text, .hero-heading{
+    color: #fff;
+}
+.travel-text{
+    font-size: 12px;
+}
+.hero-heading{
+    font-size: 34px;
+    font-weight: 700;
+
+}
+
+/* .explore{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    padding-bottom: 100px;
+    color: #fff;
+    fon
+    t-weight: 400;
+    max-height: 400px;
+    padding: 40px;
+
+} */
+.location-select{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    gap: 5px;
+    background-color: rgba(255, 255,255, 0.3);
+    padding: 10px;
+    /* opacity: .3; */
+
+}
+.road-select{
+    flex: 1;
+     background-color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 8px;
+    color:#ff5400;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+.option-select{
+    flex: 1;
+     background-color: #fff;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.form-button{
+    flex: 1;
+     background-color:#ff5400;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 8px;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.popular , .perfect-place ,.Newsletter {
+    display: flex;
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 10px auto;
+}
+.popular-button , .see-button , .sub-btn, .book-btn, .package-btn{
+    background-color:#ff5400;
+    padding: 10px 15px;
+    width: 120px;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+.destination{
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* .destination-img{
+    max-width: 1140px;
+} */
+/* .destination-img-1{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.destination-img-sec-1{
+    background-image: url("Images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    border-radius: 16px;
+    width: 48%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.destination-img-sec-2{
+    background-image: url("Images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    border-radius: 16px;
+    width: 48%;
+    text-align: center;
+    margin: 0 auto;
+}
+.destination-img-2{
+    max-width: 1140px;
+    margin: 10px auto;
+}
+
+.destination-img-sec-3{
+    background-image: url("Images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    border-radius: 16px;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+} */
+
+/* Why Choose US start */
+#choose{
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    margin: auto;
+}
+.choose-box{
+    display: flex;
+    flex-direction: column;
+
+}
+.choose-box-top{
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+
+}
+.choose-us{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.choose-head{
+    font-weight: 800;
+}
+/* Why Choose us End */
+
+/*  Handpicked Hotels */
+
+.hank, .best{
+    background-color: rgba(210, 191, 170, 0.2)
+    ;
+    height: 300px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.world{
+    background-color: rgba(228, 208, 208, 0.678)
+    ;
+    height: 300px;
+    border: 0;
+    border-radius: 15px;
+}
+
+/* Deals & Discounts */
+.deals{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Deals & Discounts pic Start */
+.price{
+    color: #ff5400;
+    font-weight: 700;
+}
+
+.deals-pic{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+.deal-1{
+    background-image: url("./Images/Group\ 39.png");
+    height: 500px;
+    max-width: 1140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.deal-2{
+    background-image: url("./Images/rotate.jpg");
+    height: 500px;
+    max-width: 1140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.deal-container{
+    background-color: rgba(255, 255,255, 0.55);
+    width: 400px;
+    height: 360px;
+    margin-right: 70px;
+}
+.deal-container-2{
+    background-color: rgba(255, 255,255, 0.55);
+    width: 400px;
+    height: 360px;
+    margin-left: 70px;
+}
+.deal-text-1{
+padding: 20px;
+}
+.deal-text-1 i{
+    font-size: 16px; margin-right: 12px;
+}
+
+/* Perfect Place start */
+
+.Newsletter-text{
+    margin-right: 45px;
+}
+
+.Newsletter-box{
+padding: 10px;
+width: 300px;
+border: 0;
+margin-bottom: 15px;
+border-radius: 5px;
+background-color: rgba(28, 24, 24, 0.062);
+}
+
+.sub-btn{
+    width: 317px;
+}
+
+.footer-sec{
+    max-width: 1140px;
+    margin: auto;
+}
+.special2{
+    color: #ff5400;
+}
+.footer-logo {
+    
+    display: block;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+.footer-img{
+    display: flex ;
+    height: 24px;
+    width: 175px;
+    margin: auto;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+
+}

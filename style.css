@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Open+Sans&family=Playfair+Display:ital,wght@1,500&family=Raleway:wght@300;400;500;600&family=Salsa&display=swap');
 
 body{
-
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
 }
 
 
@@ -209,7 +213,10 @@ a{
     text-align: center;
     margin: 0 auto;
 } */
-
+.popular-pic{
+    width: 100%;
+    
+}
 /* Why Choose US start */
 #choose{
     display: flex;
@@ -371,3 +378,87 @@ background-color: rgba(28, 24, 24, 0.062);
     justify-content: center;
 
 }
+/* responsive */
+.menubar{display: none;
+}
+
+/* Responsive  */
+@media only screen and (max-width: 1140px) {
+    .nav-section{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menus{
+    display: none;
+   }
+   .menubar{
+    display: block;
+    font-size: 24px;
+    color: #222020;
+   }
+   .road{
+    width: 100%;
+    }
+    .popular{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-pic img{
+        width: 100%;
+    }
+    .destination{
+        width: 100%;
+    }
+    #choose{
+        width: 100%;
+    }
+    .choose-box-top{
+        flex-direction: column;
+    }
+    .best{
+        width: 100%;
+    }
+    .deals{
+        width: 100%;
+    }
+    .deals-pic{
+        width: 100%;
+    }
+    .deal-container{
+        width: 400px;
+        height: 360px;
+        justify-content: center;
+        margin:0 20px ;
+    }
+    .deal-container-2{
+        width: 400px;
+        height: 360px;
+        justify-content: center;
+        margin: 0 20px;
+    }
+    .perfect-place{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .perfect-place-text{
+        width: 100%;
+    }
+    .perfect-place-img img{
+        width: 100%;
+    }
+    .Newsletter{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Newsletter-text hr{
+        width: 100%;
+    }
+    .Newsletter img{
+        margin-top: 20px;
+        width: 100%;
+    }
+  }
